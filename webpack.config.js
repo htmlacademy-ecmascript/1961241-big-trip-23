@@ -33,7 +33,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presents: ['@babel/present-env']
+            presents: ['@babel/preset-env']
           },
         },
       },
